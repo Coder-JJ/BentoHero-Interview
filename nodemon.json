@@ -1,0 +1,20 @@
+{
+  "verbose": false,
+  "stdin": false,
+  "stdout": false,
+  "events": {
+    "start": "cls || clear"
+  },
+  "watch": [
+    "node_modules/**/*",
+    ".env",
+    ".prettierrc",
+    ".eslintrc.json",
+    ".eslintignore",
+    ".stylelintrc",
+    ".stylelintignore",
+    "craco.config.js",
+    "nodemon.json",
+    "yarn.lock"
+  ]
+}
